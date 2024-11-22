@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package some_service;
+
+// サービス定義
+service SomeService {
+  rpc SomeMethod (SomeRequest) returns (SomeResponse);
+}
+
+// リクエストメッセージ
+message SomeRequest {
+  string message = 1;
+}
+
+// レスポンスメッセージ
+message SomeResponse {
+  string reply = 1;
+}
