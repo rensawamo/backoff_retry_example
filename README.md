@@ -18,7 +18,7 @@ This repository demonstrates a simple gRPC implementation with a **client** that
 ### Prerequisites
 
 - [Go](https://go.dev/) (1.19 or later)
-- Protocol Buffers Compiler (`protoc`)
+- [Buf](https://buf.build/)
 - gRPC and related Go libraries:
   - `google.golang.org/grpc`
   - `github.com/cenkalti/backoff/v4`
